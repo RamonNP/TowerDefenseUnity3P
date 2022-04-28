@@ -8,6 +8,7 @@ public class Personagem : MonoBehaviour
     public float speed;
     private WayPoint Wpoint;
     private int waypointindex;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,13 +24,23 @@ public class Personagem : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(transform.position, Wpoint.waypoints[waypointindex].position, speed * Time.deltaTime);
 
-        
-
-        Vector3 dir = Wpoint.waypoints[waypointindex].position - transform.position;
-        float angle = Mathf.Atan2( dir.y, dir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-
         if (Vector2.Distance(transform.position, Wpoint.waypoints[waypointindex].position) < 0.1f)
+        {
+            if(transform.position.x > Wpoint.waypoints[waypointindex].position.x)
+            {
+                this.transform.GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else
+            {
+                this.transform.GetComponent<SpriteRenderer>().flipX = false;
+            }
+        }
+
+            /* Vector3 dir = Wpoint.waypoints[waypointindex].position - transform.position;
+             float angle = Mathf.Atan2( dir.y, dir.x) * Mathf.Rad2Deg;
+             transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);*/
+
+            if (Vector2.Distance(transform.position, Wpoint.waypoints[waypointindex].position) < 0.1f)
         {
             if (waypointindex < Wpoint.waypoints.Length - 1)
             {
