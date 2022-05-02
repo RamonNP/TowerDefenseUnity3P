@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Arrow : MonoBehaviour
+public class enemis : MonoBehaviour
 {
+
+    public static List<GameObject> enemies = new List<GameObject>();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +16,6 @@ public class Arrow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * 2f;
+        
     }
 }

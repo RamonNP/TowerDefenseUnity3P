@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6413227380444671200}
   - component: {fileID: 8325258483794879672}
-  - component: {fileID: 459228186788002845}
+  - component: {fileID: 5698305581324975835}
   m_Layer: 0
-  m_Name: arrow
+  m_Name: PFarrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &459228186788002845
+--- !u!114 &5698305581324975835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

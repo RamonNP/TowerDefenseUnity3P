@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Personagem : MonoBehaviour
+public class Inimigo : MonoBehaviour
 {
 
     public float speed;
     private WayPoint Wpoint;
     private int waypointindex;
-    
+
+    private void Awake()
+    {
+        enemis.enemies.Add(gameObject);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -52,4 +56,10 @@ public class Personagem : MonoBehaviour
             }
         }
     }
+
+    private void die()
+    {
+        enemis.enemies.Remove(gameObject);
+    }
+
 }
