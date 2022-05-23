@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - WayPoint
+  - Enemy
+  - WaveManager
+  - MoneyManager
+  - HealthManager
   layers:
   - Default
   - TransparentFX
