@@ -1,0 +1,42 @@
+
+Nolan Askew
+GitHub: nolanaskew
+Repo: https://github.com/trevormangrum/cs302final
+
+Objectives for challenge: 
+1. Learn the basics of Unity and get some exposure to how scripting works
+2. Create a sample project to get a feel for how creating a project works
+3. Add a game object and write a script that compiles and affects the object
+4. Begin to work on UI design for the title screen for the main project
+5. Have the UI design compile and take the user into the game
+6. Create a basic entity for the game
+7. Add a feature to the entity
+8. Start to think about how we can implement Dijkstra's algorithm in our game
+
+Project Rubric - 40 Points:
+25 - UI Design for project is implemented and compiles
+10 - Script is successfully added to an entity and compiles
+5 - Code formatting, commenting
+
+I thought this challenge worked out really well because it made me start the project, which is usually the hardest part of large projects, and now I know the basics of Unity and can think about how I want to implement the project.
+
+Timelog
+10/18/21: 2 hours -- worked in lab to create milestones and a sample object 
+ 	  2 hours -- created a sample project and followed a tutorial on how to use scripting in Unity
+10/19/21: 
+	  2 hours -- created the UI for the main menu and had it connect to a level scene that has a sphere that moves when spacebar it pressed
+10/26/21: 1.5 hours -- created a pause menu and linked level select buttons
+10/31/21: .5 hours -- scaled everything to fit the size of the screen
+11/11/21: 1 hour -- watched a tutorial for a 2D tower defense game in Unity
+11/19/21: .5 hours -- learned and messed around with tower scripts
+11/20/21: .5 hours -- created basic level UI
+11/22/21: 2 hours -- gave towers a graphic and bullets and have them shoot at the enemies
+11/22/21: 1 hour -- made towers placable
+11/24/21: .5 hours -- added shop manager and made UI work
+11/24/21: 1 hour -- fixed towers placed by UI and attempted to add money when enemy is killed
+11/26/21: 1 hour -- made algorithm for tower to target enemy with the highest speed
+11/28/21: 1.5 hours -- made towers not placable on path, displayed player money, made new tasks
+11/28/21: .5 hours -- met with team to discuss final additions to project
+11/28/21: 1.5 hours -- created topbar, indicators, and info panel
+11/29/21: 2 hours -- fixed tower placements and finished sidebar UI
+11/29/21: 4 hours -- debugged issues with git and project and added UI to all levels

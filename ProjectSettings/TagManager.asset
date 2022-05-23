@@ -4,11 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - WayPoint
   - Enemy
+  - RoundText
   - WaveManager
   - MoneyManager
   - HealthManager
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Tower
+  - DummyPlacement
   - 
   - 
   - 
@@ -45,4 +46,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3603326477
     locked: 0
